@@ -1,0 +1,530 @@
+.head{
+    height: 30px;
+    width: 100%;
+}
+
+.bg-primary{
+    background-color: yellow;
+}
+
+.bg-secondary{
+    background-color:rgba(17, 2, 2, 0.863) ;
+}
+
+.bg-accent{
+    background-color: white;
+}
+
+.bg-line-primary{
+    border-bottom: 4px solid yellow;
+    width: 20%;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-line-secondary{
+    border-bottom: 4px solid rgba(17, 2, 2, 0.863);
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 0px;
+}
+
+nav .logo ul{
+    list-style: none;
+}
+
+nav .logo a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav .menu-options ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav .menu-options a{
+    color: white;
+    text-decoration: none;
+}
+
+.find-a-centre ul{
+    list-style: none;
+    border: 3px solid black;
+    background-color: black;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.find-a-centre a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.body{
+    margin: none;
+}
+
+.academy-section{
+    padding: 30px;
+    margin: 10px;
+    background-color:yellow ;
+}  
+.academy{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.academo{
+    font-weight: bold;
+    border: 1px;
+    padding: 10px;
+    color:rgba(17, 2, 2, 0.863) ;
+    background-color: yellow;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: helvetica;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.pre-academy-section{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 20px;
+}   
+.pre-academy{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color:rgba(17, 2, 2, 0.863) ;
+    width: 50%;
+    margin: 10px;
+    height: 500px;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    height: 420px;
+}
+
+.fear{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    height: 500px;
+    margin: 10px;
+}
+
+.philosophy-section{
+    padding: 20px;
+}
+
+.philosophy{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.foundation-section{
+    display: flex;
+    width: 100%;
+}
+
+.foundation{
+    text-align: center;
+    padding: 10px;
+    color:rgba(17, 2, 2, 0.863) ;
+    border: 20px solid white;
+    width: 50%;
+    margin: 10px;
+}
+
+.mission{
+    text-align: center;
+    padding: 20px;
+    border: 20px solid white;
+}
+
+.youth-section{
+display: flex;
+width: 100%;
+overflow: hidden;
+height: 400px;
+} 
+
+.youth{
+    text-align: center;
+    padding: 20px;
+    color:rgba(17, 2, 2, 0.863) ;
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+}
+
+.value{
+    background-image: url(./Images/kids-football-.jpg);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.values{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.main{
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+footer{
+    background-color:rgba(17, 2, 2, 0.863) ;
+} 
+
+.bg-line-primary-footer{
+    border-bottom: 4px solid yellow;
+    width: 16%;
+    height: 0px;
+    padding: 10px;
+}
+
+.game-changer{
+    background-image: url(./Images/kids-football-.jpg);
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+}
+
+.find-out-more ul{
+    list-style: none;
+    border: 5px solid yellow;
+    background-color: yellow;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.find-out-more a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.find-an-academyss{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.find-an-academys{
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+    background-image: url(./Images/boy-kicking-soccer-ball.jpg);
+    margin: 10px;
+}
+
+.find-a-academy{
+    display: flex;
+    overflow: hidden;
+    background-image: url(./Images/Kiara_12\ year\ old\ boy_\ soccer\ team4.jpg);
+    width: 50%;
+    margin: 10px;
+}
+
+.find-an-center ul{
+    list-style: none;
+}
+
+.find-an-center a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.contact-section{
+    padding: 80px;
+} 
+
+.contact-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    box-sizing: border-box;
+}
+
+.us h2{
+    font-size: 35px;
+    font-weight: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.we h3{
+    font-size: 20px;
+    font-weight: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.your-details{
+   width: 100%;
+   margin: auto; 
+   box-sizing: border-box;
+}
+
+.your-details input{
+    width: 100%;
+    height: 40px;
+}
+
+.your-details select{
+    width: 100%;
+    height: 40px;
+}
+
+.fearer{
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.your-message{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.your-message input{
+    width: 100%;
+    height: 40px;
+    margin-right: 100px;
+}
+
+.your-message select{
+    width: 100%;
+    height: 40px;
+}
+
+.your-message textarea{
+    width: 100%;
+    height: 130px;
+}
+
+.centres{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.boots{
+    background-image: url(./Images/kids-football-.jpg);
+    height: 240px;
+    text-align: center;
+    padding: 80px;
+    margin: 10px;
+    color: white;
+    height: 400px;
+}
+
+.packages{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 10px solid white;
+    background-color: white;
+}
+
+.footer{
+    color: white;
+    padding: 10px;
+}
+
+.zones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.places{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+
+.consent{
+    display: grid;
+   grid-template-columns: 1fr 5fr;
+    width: 100%;
+}
+
+.sob{
+    width: 45%;
+    height: 100px;
+    margin: 20px;
+}
+
+*{
+    outline: 1px solid;
+}
+
+@media (max-width:960px) {  
+    body{
+        margin: none;
+        padding: none;
+    }
+    nav .logo ul{ 
+      width: 100%;
+    }
+    nav .menu-options{ 
+        display: none;
+    }
+    nav .menu-options ul{
+        display: none;
+    }
+    nav .menu-options a{ 
+        display: none;
+    }
+    .pre-academy-section{ 
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .pre-academy{
+        width: 100%;
+        text-align: center;
+        margin: none;
+        padding: none;
+        height: 260px;
+    }
+    .fear{ 
+        width: 500%;
+        padding: 40px;
+    }
+    .find-out-more ul{
+        text-align: start;
+        width: 30%;
+        padding: none;
+        margin: none;
+    }
+    .bg-line-primary{
+       margin-left: 370px;
+    }
+    .game-changer{
+       width: 100%;
+       text-align: center;
+       margin: none;
+       padding: none;
+    }
+    .academy-section{
+        width: 91%;
+        overflow: hidden;
+        margin: none;
+        padding: none;
+    }
+    .academy-section{
+        font-size: 20px;
+        text-align: center;
+    }
+    nav .logo h1{ 
+        width: 1000%;
+    }
+    .find-an-academyss{
+        width: 200%;
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    .find-an-academys{
+        width: 100%;
+    } 
+    .find-a-academy{
+        width: 100%;
+    } 
+}
+
+@media (max-width:500px) { 
+    nav .logo ul{ 
+        width: 10%;
+      }
+    .pre-academy-section{ 
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 200%;
+        padding: none;
+        margin: none;
+    }
+    .pre-academy{
+        width: 50%;
+        height: 280px;
+        text-align: center;
+        padding: none;
+        margin: none;
+        border: none;
+    }
+    .fear{
+        margin: none;
+        padding: none;
+        width: 150%;
+    }
+    .game-changer{
+        font-size: 17px;
+        text-align:center;            
+        width: 100%;
+    }
+    .bg-line-primary{
+        margin-left: 200px;
+     }
+    .find-an-academyss{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    .find-an-academys{
+       height: 400px;
+    } 
+    .find-a-academy{
+       height: 400px;
+    } 
+}
+
+var age =prompt("What is your age?");
+var days =age * 365.25 ;
+alert(age + " years is roughly " + days + " days");
+var firstName =prompt("What is your first name?");
+var lastName =prompt("What is your last name?");
+var age =prompt("What is your age?");
+
+console.log("Your full name is " + firstName + " " + lastName )
+console.log("You are " + age + " years old")
